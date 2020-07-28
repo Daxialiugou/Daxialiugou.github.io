@@ -148,6 +148,92 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-我的博客搭建过程" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/28/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/">我的博客搭建过程</a>
+    </h1>
+  
+
+        
+        <a href="/2020/07/28/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/" class="archive-article-date">
+  	<time datetime="2020-07-28T10:09:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-28</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>使用<strong>hexo</strong>框架来进行博客搭建的，系统为<strong>win10</strong><br><strong>1.</strong>首先安装node.js(<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>)<br><img src="/images/nodejs.png" alt><br>在cmd中使用’node -v’来查看node版本，使用’npm -v’查看npm版本</p>
+<p><strong>2.</strong>再安装gitbash(<a href="https://gitforwindows.org/" target="_blank" rel="noopener">https://gitforwindows.org/</a>)  并进行配置<br><img src="/images/gitbash.png" alt></p>
+<p><strong>3.</strong>安装cnpm，’npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org&#39;" target="_blank" rel="noopener">https://registry.npm.taobao.org&#39;</a>  (使用淘宝镜像安装)<br><img src="/images/%E6%B7%98%E5%AE%9D%E9%95%9C%E5%83%8F.png" alt><br>同样在cmd中使用’cnpm -v’来查看版本</p>
+<p><strong>4.</strong>安装hexo框架，’cnpm -install -g hexo-cli’<br><img src="/images/hexo.png" alt><br>‘hexo -v’查看版本</p>
+<p><strong>5.</strong>自定义一个新的文件夹，在cmd下使用cd命令进入该路径，使用’md blog’，建立一个名为’blog’的文件夹(之后对博客进行操作都要在blog文件夹下进行)</p>
+<p><strong>6.</strong>初始化一个博客，使用’hexo init’,在该路径下生成相关文件<br><img src="/images/list.png" alt></p>
+<p><strong>7.</strong>启动博客，使用’hexo s’(在本地启动)<br><img src="/images/%E5%90%AF%E5%8A%A8%E5%8D%9A%E5%AE%A2.png" alt><br>在浏览器网址栏搜索’<a href="http://localhost:4000&#39;即可">http://localhost:4000&#39;即可</a></p>
+<p><strong>8.</strong>使用’hexo n 自定义文章名称’来创建一篇博客，我使用vs code配合markdown语法进行进行编辑，新创建的博客文章在/source/_posts下,使用’hexo clean‘清除缓存，再使用’hexo g’重新生成</p>
+<p><strong>9.</strong>将博客推到远端，部署在github上,登录github,右上角点击new repository<br><img src="/images/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png" alt><br>仓库名称必须为“github昵称”.github.io,然后创建</p>
+<p><strong>10.</strong>安装部署插件，’cnpm install –save hexo-deployer-git’<br><img src="/images/%E8%BF%9C%E7%AB%AF.png" alt></p>
+<p><strong>11</strong>打开blog目录下的_config.yml文件， 按照图片进行配置<br><img src="/images/%E8%BF%9C%E7%AB%AF%E9%85%8D%E7%BD%AE.png" alt><br>注意命令间的空格</p>
+<p><strong>12</strong>使用’hexo d’部署到远端，过程中需要输入github用户名与密码</p>
+<p><strong>13</strong>博客搭建完成!</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">学习总结</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/28/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hexo搭建博客报错解决：please tell me who you are" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
